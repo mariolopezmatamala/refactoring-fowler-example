@@ -13,4 +13,8 @@ public class ChildrensPrice extends Price{
 		return result;
 
 	}
+	
+	protected int getFrequentRenterPoints(int daysRented) {
+		return 1;
+	}
 }
